@@ -55,7 +55,6 @@ namespace XFLibrary.Controls
             return (Boolean)GetValue(CheckedProperty);
         }
 
-
         private static void CheckedValueChanged(BindableObject bindable, object oldValue, object newValue)
         {
             if (newValue != null && (Boolean)newValue == true)
@@ -97,6 +96,5 @@ namespace XFLibrary.Controls
                 base.IsEnabled = value;
             }
         }
-
     }
 }
