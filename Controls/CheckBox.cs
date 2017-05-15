@@ -20,12 +20,12 @@ namespace XFLibrary.Controls
         }
 
         public static BindableProperty CheckedProperty = BindableProperty.Create(
-    propertyName: "Checked",
-    returnType: typeof(Boolean?),
-    declaringType: typeof(CheckBox),
-    defaultValue: false,
-    defaultBindingMode: BindingMode.TwoWay,
-    propertyChanged: CheckedValueChanged);
+            propertyName: "Checked",
+            returnType: typeof(Boolean?),
+            declaringType: typeof(CheckBox),
+            defaultValue: false,
+            defaultBindingMode: BindingMode.TwoWay,
+            propertyChanged: CheckedValueChanged);
 
         private void TapGestureRecognizer_Tapped(object sender, EventArgs e)
         {
@@ -97,6 +97,6 @@ namespace XFLibrary.Controls
                 base.IsEnabled = value;
             }
         }
- 
+
     }
 }
